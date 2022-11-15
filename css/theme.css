@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import url("http://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap");
+
+/*visual*/
+.blue-visual .title-sec .title {
+  font-size: 44px;
+  font-weight: 300;
+  color: #0d6fb8;
+}
+.purple-visual .title-sec .title {
+  color: #431f8b;
+}
+
+.green-visual {
+  font-size: 44px;
+  font-weight: 300;
+  color: #0ba29a;
+}
+
+/*pages*/
+.dark-sec {
+  color: #fff;
+}
+.dark-sec .table-col.sec-text{color:#333;}
+.light-sec {
+  color: #333;
+  background:#fff;
+}
+
+ul.list li:before {
+  color: #0ba29a;
+}
+
+ul.list.light-green li:before {
+  color: #67c1c7;
+}
+ul.list.white li:before {
+	color: rgba(255, 255, 255, 1);
+}
+
+
+
+.blue-theme .light-bg {
+  background: #eef4f8;
+}
+.purple-theme .light-bg {
+  background: #f2eef7;
+}
+.purple-theme .dark-bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8877b5+16,475fd9+100 */
+  background: rgb(136,119,181); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(136,119,181,1) 16%, rgba(71,95,217,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(136,119,181,1) 16%,rgba(71,95,217,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(136,119,181,1) 16%,rgba(71,95,217,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8877b5', endColorstr='#475fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.blue-theme .dark-bg {
+  background: #0d6fb8;
+}
+.green-theme .dark-bg {
+  background: #0ba29a;
+}
+.green-theme .light-bg{
+	background:#e8f5f6;
+}
+.green-theme .sec-subtitle{
+	border-color:rgba(11, 162, 154, .7);
+	color:#0ba29a;
+}
+.purple-theme .wild-table.dark-table thead tr th{
+	color:#431f8b;
+}
+
+.purple-theme .wild-table.dark-table thead tr th {
+  color: #431f8b;
+}
+
+.green-theme .wild-table.dark-table thead tr th {
+  color: #0ba29a;
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (max-width: 1000px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 359px) {
+}
+
+@media screen and (max-device-width: 480px) {
+}
