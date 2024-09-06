@@ -554,14 +554,15 @@ body{
 	vertical-align: middle;
 }
 .one-sec5-bot .title{
-	width:100px;
+	min-width:82px;
 	height:100px;
+	padding:0 9px;
 	border-radius: 10px;
 	background: rgb(140,51,193);
 	background: linear-gradient(145deg, rgba(140,51,193,1) 0%, rgba(0,71,231,1) 100%);
 	text-align:center;
 	line-height:100px;
-	font-size:26px;
+	font-size:24px;
 	color:#fff;
 	font-weight: bold;
 	letter-spacing: 0em;
